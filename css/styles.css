@@ -3,6 +3,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.5;
+
 }
 *:focus{
     outline: 2px dotted #FF7500;
@@ -14,6 +15,8 @@ background-color: #fff;
 display: flex;
 align-items: center;
 justify-content: space-between;
+border-top: 5px solid #FF7500;
+padding: 16px ;
 
 }
 .logo-link{
@@ -39,6 +42,7 @@ justify-content: space-between;
 
 }
 .sitenav-link{
+padding: 0;
 font-weight: 500;
 font-size: 13px;
 line-height: 15px;
@@ -58,6 +62,10 @@ transition:
     opacity: 0.6;
 }
 .main-link{
+/* font-weight: bold; */
+display: inline-block;
+border-radius: 5px;
+padding: 12px 24px ;
 font-weight: 700;
 font-size: 13px;
 line-height: 15px;
@@ -74,6 +82,7 @@ transition:
     opacity: 0.6;
 }
 .hero{
+padding: 80px 0px;
 background: #252420;
 color: #fff;
 display: flex;
@@ -87,6 +96,7 @@ width: 390px;
 width: 80px;
 height: 3px;
 background: rgba(255, 117, 0, 1);
+border: 0;
 
 }
 .hero-heading{
@@ -101,11 +111,17 @@ background: rgba(255, 117, 0, 1);
 .hero-img{
     width: 510px;
     height: 510px;
+    /* border: #FF7500 solid 8px; */
+    border-radius: 8px;
+}
+.features{
+    padding: 210px 0px;
 }
 .features-list{
     list-style: none;
     display: flex;
     justify-content: space-between;
+    padding: 0;
 
 }
 
@@ -120,6 +136,10 @@ background: rgba(255, 117, 0, 1);
 
 }
 .features-icon-wrapper{
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
     width: 100px;
     height: 100px;
     background-color: rgba(255, 117, 0, 0.2);
@@ -133,9 +153,12 @@ background: rgba(255, 117, 0, 1);
 }
 
 .promo{
+    /* padding-top: 120px;
+    padding-bottom: 160px; */
     background-color: #252420;
     color: #fff;
     display: flex;
+    border-radius: 12px;
     align-items: center;
     justify-content: space-between;
 }
@@ -154,15 +177,17 @@ line-height: 48px;
     color: #FF7500;
 }
 .promo-img{
+    border-radius: 12px;
     width: 440px;
     height: 440px;
     object-fit: cover;
 }
 .site-footer{
     background-color: rgba(248, 248, 248, 1);
-
+    padding: 56px 0;
 }
 .footer-contact{
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -175,7 +200,8 @@ line-height: 48px;
 .footer-list-top{
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
+    padding: 0;
 
 }
 .footer-list-top a{
@@ -190,6 +216,7 @@ line-height: 48px;
     opacity: 0.6;
 }
 .footer-divider{
+    border: 0;
     background-color: rgba(37, 36, 32, 0.5);
     height: 3px;
     width: 1100px;
