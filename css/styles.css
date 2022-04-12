@@ -4,6 +4,10 @@ body{
     line-height: 1.5;
     letter-spacing: 0.5;
 }
+*:focus{
+    outline: 2px dotted #FF7500;
+    outline-offset: 3px;
+}
 
 .site-header{
 background-color: #fff;
@@ -209,6 +213,6 @@ line-height: 48px;
 .site-footer-links a:hover{
     color: #FF7500;
 }
-.site-footer-links a:focus{
+.site-footer-links a:active{
    opacity: 0.6;
 }
